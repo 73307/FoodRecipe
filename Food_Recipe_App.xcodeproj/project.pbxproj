@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843996FB2B1C38D200C9A396 /* FoodListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843996F92B1C38D200C9A396 /* FoodListCell.swift */; };
+		843996FC2B1C38D200C9A396 /* FoodListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843996FA2B1C38D200C9A396 /* FoodListCell.xib */; };
+		843996FF2B1C38FE00C9A396 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843996FE2B1C38FE00C9A396 /* HomeVC.swift */; };
+		843997032B1C3D1500C9A396 /* FoodListHeaderVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843997022B1C3D1500C9A396 /* FoodListHeaderVIew.swift */; };
+		843997062B1C3D3400C9A396 /* FoodListHeaderVIew.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843997052B1C3D3400C9A396 /* FoodListHeaderVIew.xib */; };
+		8439970A2B1C403800C9A396 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843997092B1C403800C9A396 /* Model.swift */; };
+		8455F38C2B1C79DA00AC3570 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455F38B2B1C79DA00AC3570 /* DashboardVC.swift */; };
+		847C9FF82B1E4A2E00FCB827 /* AboutAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C9FF72B1E4A2E00FCB827 /* AboutAppVC.swift */; };
 		84E5534E2B1B643C00C5F62A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5534D2B1B643C00C5F62A /* AppDelegate.swift */; };
 		84E553502B1B643C00C5F62A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5534F2B1B643C00C5F62A /* SceneDelegate.swift */; };
 		84E553522B1B643C00C5F62A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E553512B1B643C00C5F62A /* ViewController.swift */; };
@@ -16,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		843996F92B1C38D200C9A396 /* FoodListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoodListCell.swift; path = "table view/FoodListCell.swift"; sourceTree = "<group>"; };
+		843996FA2B1C38D200C9A396 /* FoodListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FoodListCell.xib; path = "table view/FoodListCell.xib"; sourceTree = "<group>"; };
+		843996FE2B1C38FE00C9A396 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		843997022B1C3D1500C9A396 /* FoodListHeaderVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListHeaderVIew.swift; sourceTree = "<group>"; };
+		843997052B1C3D3400C9A396 /* FoodListHeaderVIew.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodListHeaderVIew.xib; sourceTree = "<group>"; };
+		843997092B1C403800C9A396 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8455F38B2B1C79DA00AC3570 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		847C9FF72B1E4A2E00FCB827 /* AboutAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppVC.swift; sourceTree = "<group>"; };
 		84E5534A2B1B643C00C5F62A /* Food_Recipe_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Food_Recipe_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E5534D2B1B643C00C5F62A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84E5534F2B1B643C00C5F62A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,10 +72,18 @@
 		84E5534C2B1B643C00C5F62A /* Food_Recipe_App */ = {
 			isa = PBXGroup;
 			children = (
+				843997092B1C403800C9A396 /* Model.swift */,
 				84E5534D2B1B643C00C5F62A /* AppDelegate.swift */,
 				84E5534F2B1B643C00C5F62A /* SceneDelegate.swift */,
 				84E553512B1B643C00C5F62A /* ViewController.swift */,
+				843996F92B1C38D200C9A396 /* FoodListCell.swift */,
+				843996FE2B1C38FE00C9A396 /* HomeVC.swift */,
+				843997022B1C3D1500C9A396 /* FoodListHeaderVIew.swift */,
+				843997052B1C3D3400C9A396 /* FoodListHeaderVIew.xib */,
+				843996FA2B1C38D200C9A396 /* FoodListCell.xib */,
 				84E553532B1B643C00C5F62A /* Main.storyboard */,
+				847C9FF72B1E4A2E00FCB827 /* AboutAppVC.swift */,
+				8455F38B2B1C79DA00AC3570 /* DashboardVC.swift */,
 				84E553562B1B644000C5F62A /* Assets.xcassets */,
 				84E553582B1B644000C5F62A /* LaunchScreen.storyboard */,
 				84E5535B2B1B644000C5F62A /* Info.plist */,
@@ -125,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E5535A2B1B644000C5F62A /* LaunchScreen.storyboard in Resources */,
+				843997062B1C3D3400C9A396 /* FoodListHeaderVIew.xib in Resources */,
+				843996FC2B1C38D200C9A396 /* FoodListCell.xib in Resources */,
 				84E553572B1B644000C5F62A /* Assets.xcassets in Resources */,
 				84E553552B1B643C00C5F62A /* Main.storyboard in Resources */,
 			);
@@ -137,9 +163,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8439970A2B1C403800C9A396 /* Model.swift in Sources */,
+				847C9FF82B1E4A2E00FCB827 /* AboutAppVC.swift in Sources */,
 				84E553522B1B643C00C5F62A /* ViewController.swift in Sources */,
+				843996FF2B1C38FE00C9A396 /* HomeVC.swift in Sources */,
+				843996FB2B1C38D200C9A396 /* FoodListCell.swift in Sources */,
 				84E5534E2B1B643C00C5F62A /* AppDelegate.swift in Sources */,
+				8455F38C2B1C79DA00AC3570 /* DashboardVC.swift in Sources */,
 				84E553502B1B643C00C5F62A /* SceneDelegate.swift in Sources */,
+				843997032B1C3D1500C9A396 /* FoodListHeaderVIew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +248,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -293,7 +325,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ravi-vaghela.Food-Recipe-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pal.EpicurePal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +344,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ravi-vaghela.Food-Recipe-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pal.EpicurePal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

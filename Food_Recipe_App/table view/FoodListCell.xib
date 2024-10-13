@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FoodListCell" rowHeight="61" id="KGk-i7-Jjw" customClass="FoodListCell" customModule="Food_Recipe_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="61"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="61"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qla-oB-eTt">
+                        <rect key="frame" x="0.0" y="3" width="320" height="50"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TUk-4u-9sy">
+                                <rect key="frame" x="20" y="2.5" width="45" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="rio-gv-GCX"/>
+                                    <constraint firstAttribute="width" constant="45" id="zY5-7a-EYO"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Labelffsffsfsfsfskfsfjhsfhksfhsfhkshfshfkhfshfhfkfs" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVt-SR-87K">
+                                <rect key="frame" x="75" y="5" width="235" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="jdE-6k-5Mt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstItem="TUk-4u-9sy" firstAttribute="centerY" secondItem="Qla-oB-eTt" secondAttribute="centerY" id="4JN-jE-Hnz"/>
+                            <constraint firstAttribute="bottom" secondItem="tVt-SR-87K" secondAttribute="bottom" constant="5" id="CPc-yJ-ZBj"/>
+                            <constraint firstItem="tVt-SR-87K" firstAttribute="leading" secondItem="TUk-4u-9sy" secondAttribute="trailing" constant="10" id="Dr0-hf-XRP"/>
+                            <constraint firstAttribute="height" constant="50" id="NRq-gx-KEW"/>
+                            <constraint firstAttribute="trailing" secondItem="tVt-SR-87K" secondAttribute="trailing" constant="10" id="OXj-Jq-o05"/>
+                            <constraint firstItem="tVt-SR-87K" firstAttribute="top" secondItem="Qla-oB-eTt" secondAttribute="top" constant="5" id="sTd-zn-7Qc"/>
+                            <constraint firstItem="tVt-SR-87K" firstAttribute="centerY" secondItem="Qla-oB-eTt" secondAttribute="centerY" id="tNK-tq-54r"/>
+                            <constraint firstItem="TUk-4u-9sy" firstAttribute="leading" secondItem="Qla-oB-eTt" secondAttribute="leading" constant="20" id="wUf-PD-IIe"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Qla-oB-eTt" secondAttribute="bottom" constant="1.5" id="4J8-kD-8bb"/>
+                    <constraint firstAttribute="trailing" secondItem="Qla-oB-eTt" secondAttribute="trailing" id="JQf-TH-3DZ"/>
+                    <constraint firstItem="Qla-oB-eTt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="R5c-6t-AE7"/>
+                    <constraint firstItem="Qla-oB-eTt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="h04-2b-Gbp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgFood" destination="TUk-4u-9sy" id="WrC-Xc-3sb"/>
+                <outlet property="lblFoodName" destination="tVt-SR-87K" id="2nf-5b-u9Z"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="94.084821428571431"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
